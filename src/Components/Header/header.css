@@ -1,0 +1,67 @@
+.header{
+    background: #000;
+    color: aliceblue;
+    padding: 0 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    margin: 0 1rem;
+    height: 60px;
+
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 13%;
+}
+
+.nav-left .menu{
+ font-size: 2rem;
+}
+.nav-left img{
+ /* height: 6.4rem; */
+ width: 7.4rem;
+ color: aliceblue;
+}
+.yt-logo{
+    width: 5rem;
+}
+
+.nav-mid{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background:#333;
+    width: 45%;
+    border-radius: 5rem;
+    padding-right: 1rem
+}
+.nav-mid input{
+    background: black;
+    border:1px solid gray;
+    height: 2.5rem;
+    width: 100%;
+    border-top-left-radius:5rem;
+    border-bottom-left-radius:5rem;
+    padding: 0 1rem;
+    color: aliceblue;
+
+
+}
+input:focus{
+    border:1px solid blue;
+    outline:blue
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
